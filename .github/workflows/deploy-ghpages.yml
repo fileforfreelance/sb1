@@ -20,7 +20,9 @@ jobs:
           node-version-file: .nvmrc
           cache: npm
       - name: Install dependencies
-        run: npm ci
+        run: |
+          npm ci
+          npm install --save-dev @storybook/manager-api @storybook/theming
       - name: Build addon
         run: npm run build
       - name: Build examples
