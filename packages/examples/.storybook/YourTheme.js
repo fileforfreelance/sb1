@@ -8,7 +8,7 @@ export default create({
 
   brandTitle: 'Free Online Tools',
   brandUrl: 'https://appweb.cc',
-  brandImage: 'https://appweb.cc/favicon.png',
+  brandImage: 'https://movie.appweb.cc/wp-content/uploads/2017/03/doasfoplay.png',
   brandTarget: '_self',
 
   //
