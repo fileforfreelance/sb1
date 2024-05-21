@@ -1,1 +1,6 @@
-npm install --save-dev @storybook/manager-api @storybook/theming
+import { addons } from '@storybook/manager-api';
+import yourTheme from './YourTheme';
+
+addons.setConfig({
+  theme: yourTheme,
+});
