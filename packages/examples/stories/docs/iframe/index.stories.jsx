@@ -17,7 +17,7 @@ embedSite.parameters = {
   }),
 };
 
-export const allowFullscreen = () => <Button>😻</Button>;
+export const allowFullscreen = () => <iframe src="https://tti.appweb.cc"></iframe>;
 
 allowFullscreen.parameters = {
   design: config({
