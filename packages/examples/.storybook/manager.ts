@@ -9,8 +9,8 @@ addons.setConfig({
   theme: create({
     // base: "light",
     // brandTitle: "AppWeb.Cc",
-    brandImage: logo,
-    brandUrl: pkg.homepage,
+    //brandImage: logo,
+    //brandUrl: pkg.homepage,
   }),
   showRoots: true,
 });
