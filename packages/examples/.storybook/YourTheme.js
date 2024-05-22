@@ -7,7 +7,8 @@ export default create({
   fontCode: 'monospace',
 
   brandTitle: 'Free Online Tools',
-  brandUrl: 'https://appweb.cc',
+  // brandUrl: 'https://appweb.cc',
+  brandUrl: pkg.homepage,
   brandImage: 'https://movie.appweb.cc/wp-content/uploads/2017/03/doasfoplay.png',
   brandTarget: '_self',
   
