@@ -7,8 +7,8 @@ import pkg from "@storybook/addon-designs/package.json";
 
 addons.setConfig({
   theme: create({
-    base: "light",
-    brandTitle: "AppWeb.Cc",
+    // base: "light",
+    // brandTitle: "AppWeb.Cc",
     brandImage: logo,
     brandUrl: pkg.homepage,
   }),
