@@ -1,5 +1,5 @@
 // Replace your-framework with the framework you are using (e.g., react, vue3)
-import { Preview } from '@storybook/addon-designs';
+import { Preview } from '@storybook/types';
 
 import { themes } from '@storybook/theming';
 
