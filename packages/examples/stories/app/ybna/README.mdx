@@ -1,0 +1,40 @@
+import { Meta } from "@storybook/blocks";
+import { Badge } from "@storybook/components";
+
+<Meta title="Docs/iframe/README" />
+
+# Embedding external websites
+
+This document describes how to embed external websites to your Storybook.
+
+## Requirements
+
+The website to embed needs to allow embedding: you can't embed websites with unmatch [X-Frame-Options][x-frame-options].
+
+[x-frame-options]: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options
+
+## Usage
+
+Set `type: "iframe"` and pass the URL.
+
+```js
+// myStories.stories.jsx
+export const myStory = () => <MyComponent />;
+
+myStory.parameters = {
+  design: {
+    type: "iframe",
+    url: "<URL>",
+  },
+};
+```
+
+You can find more detailed instructions [here](/?path=/docs/docs-iframe-examples--embed-site).
+
+## Parameter options
+
+| Option name                                      | Type           | Default value | Description                                   |
+| ------------------------------------------------ | -------------- | ------------- | --------------------------------------------- |
+| `type` <Badge status="positive">required</Badge> | `"iframe"`     |               | Fixed parameter.                              |
+| `url` <Badge status="positive">required</Badge>  | `string` (URL) |               | An URL to embed.                              |
+| `allowFullscreen`                                | `boolean`      | `false`       | Whether to allow `<iframe>` to go fullscreen. |
