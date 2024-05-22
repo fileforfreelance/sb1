@@ -20,8 +20,7 @@
     "storybook": "8.0.0"
   },
   "scripts": {
-    "storybook": "storybook dev -p 6006",
-    "storybook": "start-storybook -p 9009 -s public"
+    "storybook": "storybook dev -p 6006 -s public",
     "storybook:tab": "STORYBOOK_ADDON_DESIGNS_MODE=tab npm run storybook",
     "build-storybook": "storybook build",
     "build-storybook:tab": "STORYBOOK_ADDON_DESIGNS_MODE=tab storybook build --output-dir storybook-static/tab"
