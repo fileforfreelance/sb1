@@ -10,4 +10,5 @@ export default create({
   brandUrl: 'https://appweb.cc',
   brandImage: 'https://movie.appweb.cc/wp-content/uploads/2017/03/doasfoplay.png',
   brandTarget: '_self',
+  
 });
